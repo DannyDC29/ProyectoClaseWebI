@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    font-size: 14px;
+    margin-right: 30px;
+    color: black;
+}
+
+figure{
+    text-align: center;
+    margin: 0;
+}
+
+.fondoImagen{
+    height: 80%;
+}
+
+.flexContainer{
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+}
+
+.divIzquierdo{
+    width: 60%;
+    background-color: blue;
+    height: 100px;
+}
+
+.divDerecho{
+    width: 30%;
+    background-color: yellow;
+    height: 100px; 
+
+}
+
