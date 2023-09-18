@@ -29,14 +29,26 @@ figure{
 
 .divIzquierdo{
     width: 60%;
-    background-color: blue;
-    height: 100px;
+    background-color: olivedrab;
 }
 
 .divDerecho{
     width: 30%;
     background-color: yellow;
-    height: 100px; 
 
 }
 
+.flexContainerDos{
+    display: flex;
+}
+
+.flexContainerTres{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+div>div>img{
+    width: 70px;
+    height: 70px;
+}
