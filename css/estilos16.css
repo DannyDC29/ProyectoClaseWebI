@@ -1,0 +1,20 @@
+div#flexContainer{
+    display: flex;
+    flex-wrap: ;
+}
+div#flexContainer >div{
+    width: 400px;
+    height: 100px;
+    border: 1px solid red;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+#gridContainer{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+div#gridContainer>div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
