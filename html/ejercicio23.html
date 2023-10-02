@@ -1,0 +1,38 @@
+<script>
+    frutas = ["Tomate", "Piña", "Manzana"];
+    console.log(frutas[0]);
+
+    for (let i = 0; i < frutas.length; i++) {
+        console.log(frutas[i]);
+    }
+
+    vegetales = []
+    vegetales[0] = "Lechuga";
+    vegetales[1] = "Pepino";
+    vegetales[2] = "Berengena";
+    vegetales.push("pimentón"); //para agregar elementos al final
+    vegetales.unshift("Cebolla"); //para agregar elementos al inicio
+    console.log(vegetales[1]);
+
+    vegetales.forEach(vegetal => {
+        console.log(vegetal);        
+    });
+
+    for (const vegetal of vegetales) {
+        console.log(vegetal);
+    }
+
+    for (const key in vegetales) {
+        console.log(vegetales[key]);
+    }
+
+    vehiculo = {
+        motor: "ABC",
+        color: "Verde",
+        numNeumaticos : 5
+    }
+
+    console.log(vehiculo.motor);
+
+
+</script>

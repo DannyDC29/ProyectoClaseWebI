@@ -1,0 +1,20 @@
+<script>
+    //leer tres numeros desde una pagina web y determinar si son o no pares
+
+    cantidadNumeroLeer = 2;
+
+    for (let i = 0; i < cantidadNumeroLeer; i++) {
+        var numero = parseInt(prompt("Digite un número"));
+        
+        if (esNumeroPar(numero))
+            console.log("Es par");
+        else
+            console.log("Es impar");
+    }
+
+    function esNumeroPar(numero) {
+        return numero % 2 == 0;
+    }
+
+
+</script>
